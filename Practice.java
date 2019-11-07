@@ -9,6 +9,7 @@ import java.util.regex.*;
 public class Solution {
 
     // Complete the sockMerchant function below.
+    // runs in O(n) time
     static int sockMerchant(int n, int[] ar) {
         HashSet<Integer> unpaired = new HashSet<>();
         int count = 0;
